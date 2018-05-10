@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Eventbrite_Testing</RootNamespace>
     <AssemblyName>Eventbrite_Testing</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -39,9 +40,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="TES.Integration.Template, Version=1.0.0.0, Culture=neutral, PublicKeyToken=168ab683b7b3b23c, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\..\TES\TES.Integration.Template.dll</HintPath>
+    <Reference Include="TES.Integration.Template">
+      <HintPath>..\..\..\..\..\..\TES\TESJH\Customers\The King's Fund\Projects\EventBrite\DLL\TES.Integration.Template.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
